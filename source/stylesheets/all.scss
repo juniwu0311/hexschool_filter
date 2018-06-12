@@ -1,0 +1,120 @@
+
+
+@import "functions";
+@import "helpers/variables";
+@import "mixins";
+
+@import "root";
+@import "print";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "utilities";
+
+
+// Custom
+.search-1{
+    border-style: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.search-1::-webkit-input-placeholder{
+    font-style: italic;
+    font-weight: lighter;
+    color:rgba(255,255,255, .5);
+}
+
+
+.filter {
+    background-color: #EBEBEB;
+}
+
+.btn-rounded{
+    border-radius: 2rem;
+    font-style: italic;
+    margin-right: .3rem;
+}
+
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: 200px;
+}
+
+.bg-cover-blog{
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.card-icon{
+    margin-right:0;
+    display: block; 
+}
+
+#card-link:hover{
+    box-shadow:2px 5px 10px #EBEBEB;
+    transition: .2s;
+}
+
+
+
+
+@media(min-width: 768px){
+
+    .container-md-left{
+        width:300px;
+    }
+
+}
+    
+
+@media (min-width: 1200px) {
+
+    .card-xl-icon{
+        display: inline;  
+        margin-right: 1.5rem; 
+    }
+
+    .bg-xl-cover{
+        width: 220px;
+        height: auto;
+    }
+
+    .rounded-xl-left{
+        border-top-right-radius: unset!important;
+        border-bottom-left-radius: .25rem;
+    }
+}
